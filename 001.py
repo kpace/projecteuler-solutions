@@ -9,4 +9,5 @@ for i in range(1000//3 + 1):
     multiply_5 = i * 5
     if i < 200 and (i * 5) % 3 != 0:
         sum += i * 5
+
 print(sum)
